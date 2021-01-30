@@ -38,6 +38,7 @@ a {
 
 img {
   display: block;
+  width: 100%;
 }
 
 /* HEADER */
@@ -289,6 +290,7 @@ button:focus {
   background-color: var(--secondary-bg);
 }
 
+
 .team-members-container {
   background-color: var(--secondary-accent);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -298,6 +300,11 @@ button:focus {
 
 .team-members-container:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-members-container:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .team-members-name {
