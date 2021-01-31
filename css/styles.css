@@ -302,7 +302,8 @@ button:focus {
   margin-right: 30px;
 }
 
-.team-members-container:hover {
+.team-members-container:hover,
+.team-members-container:focus-within {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -522,7 +523,12 @@ button:focus {
   border: 1px solid #eeeeee;
 }
 
-.project-list-item:hover {
+a.project-list-link {
+  display: inline-block;
+}
+
+.project-list-item:hover,
+.project-list-item:focus-within {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
